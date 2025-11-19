@@ -3,6 +3,7 @@ body {
     background: orange;
     margin: 0px;
     font-family: "PT Sans Narrow", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -29,9 +30,7 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height: 200px;
-}
+
 .categoria-videos{
 display: flex;
 overflow-x: auto;
@@ -40,4 +39,18 @@ gap: 10px;
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid lightyellow;
+}
+.categoria h2{
+    color: magenta;
+
 }
